@@ -38,13 +38,6 @@ local Tab3o = MakeTab({Name = "script TraiCay"})
      local Tab6o = MakeTab({Name = "script get key"})
 ------- BUTTON
     
-    Toggle = AddToggle(Tab1o, {
-      Name = "FAM1",
-      Default = false,
-      Callback = function()
-     end
-    })
-    
     ------- BUTTON
     
     AddButton(Tab1o, {
