@@ -32,7 +32,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------ Tab
      local Tab1o = MakeTab({Name = "Script Farm"})
      local Tab2o = MakeTab({Name = "script kaitan"})
-local Tab3o = MakeTab({Name = "script TraiCay"})
      local Tab4o = MakeTab({Name = "Script bay"})
      local Tab5o = MakeTab({Name = "script fix lag"})
      local Tab6o = MakeTab({Name = "script get key"})
@@ -45,23 +44,10 @@ local Tab3o = MakeTab({Name = "script TraiCay"})
   JoinTeam = "Pirates"; -- Pirates/Marines
   Translator = true; -- true/false
 }
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/ShimeKano/redz/refs/heads/main/Source.luau"))()(Settings)
   end
   })
-  
-  AddButton(Tab1o, {
-     Name = "Redz Hub",
-    Callback = function()
-	  local Settings = {
-  JoinTeam = "Pirates"; -- Pirates/Marines
-  Translator = true; -- true/false
-}
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
-  end
-  })
-  
   AddButton(Tab2o, {
      Name = "Kaitan hub",
     Callback = function()
@@ -69,10 +55,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
   end
   })
   
-  AddButton(Tab3o, {
-     Name = "TraiCay hub",
+  AddButton(Tab1o, {
+     Name = "minHopsword hub",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/refs/heads/main/TraiCay.lua"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinHopSword"))()
   end
   })
   
@@ -128,7 +114,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
   AddButton(Tab1o, {
      Name = "Teddy hub",
     Callback = function()
-	  lloadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/TeddyHubv2"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Teddy-Premium"))()
   end
   })
   
